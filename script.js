@@ -1,3 +1,14 @@
+// Script para la funcionalidad de compra y carrito
+const buttons = document.querySelectorAll('button[data-producto]');
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const producto = button.getAttribute('data-producto');
+        alert(`Has añadido ${producto} al carrito.`);
+        // Aquí puedes añadir la lógica para agregar el producto al carrito
+    });
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     const formularioContacto = document.getElementById("formulario-contacto");
 
