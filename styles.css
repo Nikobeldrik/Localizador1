@@ -1,53 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Outfit;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 8px;
-    top: 0;
-    width: 100%;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
 }
 
 .menu {
-    border: 1px solid #ccc;
-    width: 200px;
-    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px #333;
+    overflow: hidden;
+    padding: 10px 60px;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.menu ul li a {
+.menu a {
+    padding: 12px;
+    color:rgb(0, 0, 0);
     text-decoration: none;
-    color: #333;
+    margin: 0 10px;
 }
 
-.menu ul li a:hover {
-    background-color: #1f0870;
+.menu a:hover {
+    background-color: #82ebeb9d;
+    color:rgb(0, 0, 0);
 }
+
 
 .seccion {
-    display: inline-block;
+    display: inline-table;
     border: 1px solid blue;
     padding: 20px;
     margin: 10px;
@@ -55,5 +45,12 @@ footer {
 }
 
 .seccion:hover {
-    background-color: #ccc;
+    background-color: #82ebeb4b;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
