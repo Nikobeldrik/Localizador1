@@ -2,6 +2,10 @@
 body {
   margin: 0;
   font-family: Outfit;
+    background-image: url("/assets/background-T.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .top-bar {
@@ -83,13 +87,6 @@ body {
   text-decoration: none;
 }
 
-body {
-  background-image: url("");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
 .mis-vision-objetivos {
   display: flex;
   justify-content: space-around;
@@ -124,9 +121,10 @@ body {
   text-align: center;
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #010236;
   border-radius: 5px;
   transition: all 0.3s ease;
+  background: #fff;
 }
 
 .servicio:hover {
